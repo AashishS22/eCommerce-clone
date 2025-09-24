@@ -294,7 +294,7 @@ span {
    color: black;
 }
 
-/* footer-section------------------------------------------------------------------------------*/
+/* footer-panel1------------------------------------------------------------------------------*/
 
 footer {
    margin-top: 15px;
@@ -316,3 +316,25 @@ footer {
 .footer-panel1:hover{
    background-color: #0f1111;
 }   
+
+/* footer-panel2------------------------------------------------------------------------------*/
+
+.footer-panel2 {
+   background-color: #222f3d;
+   color: white;
+   height: 400px;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+
+ul {
+   margin-top: 20px;
+}
+ ul a {
+   color: #dddddd;
+   display: block;
+   margin-top: 10px;
+   text-decoration: none;
+   font-size: 0.85rem;
+ }
