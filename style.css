@@ -348,6 +348,10 @@ ul {
    text-decoration: none;
    font-size: 0.85rem;
  }
+
+ ul a:hover {
+   text-decoration: underline;
+ }
  /* footer-panel3------------------------------------------------------------------------------*/
 
  .footer-panel3 {
