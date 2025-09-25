@@ -133,6 +133,11 @@ span {
    font-size: 35px;
 }
 
+.nav-cart a{
+   text-decoration: none;
+   color: white
+}
+
 /* Content Panel ------------------------------------------------------------------------------*/
 
 .panel{
@@ -254,6 +259,11 @@ span {
     justify-content: space-evenly;
     background-color: #e2e7e6;
 }
+    
+.box-content h2 {
+   font-size: 17px;
+   margin-bottom: 10px;
+}    
 
 .box {
     /* border: 2px solid black; */
@@ -348,4 +358,30 @@ ul {
    justify-content: center;
    border-top: 0.5px solid white;
  }
+
+ /* footer-panel4------------------------------------------------------------------------------*/
+ .footer-panel4 {
+   background-color: black;
+   color: white;
+   height: 80px;
+   text-align: center;
+   font-size: 0.75rem;
+ }
  
+ .footer-panel4 a {
+   text-decoration: none;
+   color: white;
+   margin-right: 10px;
+ }
+
+  .footer-panel4 a:hover{
+   text-decoration:underline;
+  }
+
+ .pages {
+   padding-top: 20px;
+ }
+
+ .copyright{
+   padding-top: 6px;
+ }
